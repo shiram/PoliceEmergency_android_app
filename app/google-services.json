@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1050762379815",
+    "firebase_url": "https://policeemergency-e2873.firebaseio.com",
+    "project_id": "policeemergency-e2873",
+    "storage_bucket": "policeemergency-e2873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050762379815:android:fca328787a37d6b7",
+        "android_client_info": {
+          "package_name": "com.ugpolice.hunter.policeemergency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050762379815-39490ahqor7b8evagku8bcsoh75he9qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ugpolice.hunter.policeemergency",
+            "certificate_hash": "9e7bd67c6e9d488d28f2df7911a4ad66e933f69e"
+          }
+        },
+        {
+          "client_id": "1050762379815-8i6dfnd9ulapovic403ucpp72v11chkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBn3rs58OmFzVXOP6I-AppeAFb4FADcU4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050762379815-8i6dfnd9ulapovic403ucpp72v11chkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

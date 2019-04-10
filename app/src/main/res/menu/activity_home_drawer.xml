@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Feedback" />
+    </group>
+    <item android:title="Emergencies"
+        android:id="@+id/emergencies">
+        <menu>
+            <item
+                android:id="@+id/nav_ambulance"
+                android:title="Ambulance" />
+            <item
+                android:id="@+id/nav_fire_brigade"
+                android:title="Fire Brigade" />
+            <item
+                android:id="@+id/nav_patrol"
+                android:title="Patrol" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_civilian_emergencies"
+            android:title="Civilian Emergencies" />
+        <item
+            android:id="@+id/nav_emergency_report"
+            android:title="Emergency Report" />
+        <item
+            android:id="@+id/nav_add_officer"
+            android:title="Add Officer" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_exit"
+            android:title="Exit" />
+    </group>
+
+</menu>
